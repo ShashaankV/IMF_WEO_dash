@@ -16,7 +16,7 @@ choose one (or few) useful metrics - something that is easy to visualize and giv
 use an open-source type programmatic platform with large buy-in and support - we chose Plotly's Dash, no reason to limit clients by unnecessary license fees
 Chloropleth - the visualization we avoided
 
-Chloropleths - We were setup for this and pretty much all teams chose these. It is an obvious choice for data with geographic features. However, there was no strong reason to expect geographic continuity at this resolution (unlike a pandemic model, see our covid project).
+No chloropleths - We were setup for this and pretty much all teams chose these. It is an obvious choice for data with geographic features. However, there was no strong reason to expect geographic continuity at this resolution (unlike a pandemic model, see our covid project).
 A different network structure may be useful such as group countries by known shared economic ties (or some cluster analysis). This was not clear at the outset.
 
 Why goodness-of-fit?
@@ -47,3 +47,5 @@ This "is created during the biannual WEO (IMF) exercise, which begins in January
 "The IMF’s World Economic Outlook uses a “bottom-up” approach in producing its forecasts; that is, country teams within the IMF generate projections for individual countries. These are then aggregated, and through a series of iterations where the aggregates feed back into individual countries’ forecasts, forecasts converge to the projections reported in the WEO.
 
 Because forecasts are made by the individual country teams, the methodology can vary from country to country and series to series depending on many factors."
+
+![alt text](./figures/app.png)
