@@ -30,7 +30,8 @@ Main features:
 Aggregate metrics - intercept and slope of linear regression model
 Outlier country estimates - used a robust regression (reduces outlier effects), then tag outliers based on chi-squared analysis of country residual from robust regression line
 
-## About world economic outlook (WEO) ###What is the International Monetary Fund?
+## About world economic outlook (WEO) 
+### What is the International Monetary Fund?
 
 (from Wiki: https://en.wikipedia.org/wiki/International_Monetary_Fund)
 
