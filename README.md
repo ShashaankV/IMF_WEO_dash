@@ -1,13 +1,14 @@
 # IMF_WEO_dash
 Outlier interactive plot for IMF WEO hackathon
 
-Example using Plotly's Dash library for making a simple but IMHO very useful dashboard. Purpose is to plot actual vs predicted values. General use to assess any type of forecast (predictive) model. Particularly useful for IMF-WEO (see below) where the model is a complex human-guided algorithm. Outliers are defined as x sigma from robust linear regression line. (Future work - clean up code, annotations, replace * with np, etc., and outlier specifications.)
+Example using Plotly's Dash library for making a simple but useful dashboard. Purpose is to plot actual vs predicted values. General use to assess any type of forecast (predictive) model. Particularly useful for IMF-WEO (see below) where the model is a complex human-guided algorithm. Outliers are defined as x sigma from robust linear regression line. (Future work - clean up code, annotations, replace * with np, etc., and outlier specifications.)
 
-#Outlier (goodness of fit) dashboard
+# Outlier (goodness of fit) dashboard
 
 Display predicted vs actual index. Purpose: interactive visualization to easily identify bad predictions that can be used by user to improve model.
 
-##Motivation - IMF WEO Hackathon Generated for the International Monetary Fund 2018 data visualization 2 hour hackathon. The goal was to make an insightful product for the World Economic Outlook report (WEO) (more below). Notably forecasts made by IMF go through a complex process between country teams and aggregated adjustments. We focused on a tool that assessed the country-level and aggregate predictions. The product was the design of Michelle C Mandolia, Benjamin P Cohn, and Shashaank Vattikuti.
+## Motivation 
+IMF WEO Hackathon Generated for the International Monetary Fund 2018 data visualization 2 hour hackathon. The goal was to make an insightful product for the World Economic Outlook report (WEO) (more below). Notably forecasts made by IMF go through a complex process between country teams and aggregated adjustments. We focused on a tool that assessed the country-level and aggregate predictions. The product was the design of Michelle C Mandolia, Benjamin P Cohn, and Shashaank Vattikuti.
 
 Our guideline:
 
@@ -29,13 +30,13 @@ Main features:
 Aggregate metrics - intercept and slope of linear regression model
 Outlier country estimates - used a robust regression (reduces outlier effects), then tag outliers based on chi-squared analysis of country residual from robust regression line
 
-##About world economic outlook (WEO) ###What is the International Monetary Fund?
+## About world economic outlook (WEO) ###What is the International Monetary Fund?
 
 (from Wiki: https://en.wikipedia.org/wiki/International_Monetary_Fund)
 
 "Formed in 1944 ,started in 27 November 1945,7 at the Bretton Woods Conference primarily by the ideas of Harry Dexter White and John Maynard Keynes,8 it came into formal existence in 1945 with 29 member countries and the goal of reconstructing the international monetary system. It now plays a central role in the management of balance of payments difficulties and international financial crises.9 Countries contribute funds to a pool through a quota system from which countries experiencing balance of payments problems can borrow money. As of 2016, the fund had XDR 477 billion (about US$667 billion).10. ... consisting of 190 countries working to foster global monetary cooperation, secure financial stability, facilitate international trade, promote high employment and sustainable economic growth, and reduce poverty around the world while periodically depending on the World Bank for its resources.1"
 
-###Forecasts IMF-WEO about forecasts( analyses of global economic developments during the near and medium term.)
+### Forecasts IMF-WEO about forecasts( analyses of global economic developments during the near and medium term.)
 
 Data is sourced from the the World Economic Outlook (WEO) database. (Data is in ./data/ from the hackathon, using publicly available data from IMF. Data is dated from 2018 competition year. Updated data needs to be reformatted for use, pending clarification from IMF.) 
 
