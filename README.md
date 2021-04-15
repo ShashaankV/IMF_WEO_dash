@@ -11,7 +11,7 @@ Display predicted vs actual index. Purpose: interactive visualization to easily 
 
 ## Motivation 
 
-IMF WEO Hackathon Generated for the International Monetary Fund 2018 data visualization 2 hour hackathon. The goal was to make an insightful product for the World Economic Outlook report (WEO) (more below). Notably forecasts made by IMF go through a complex process between country teams and aggregated adjustments. We focused on a tool that assessed the country-level and aggregate predictions. The product was the design of Michelle C Mandolia, Benjamin P Cohn, and Shashaank Vattikuti.
+IMF WEO Hackathon - This was produced for the International Monetary Fund 2018 data visualization, 4 hour hackathon. The goal was to make an insightful product for the World Economic Outlook report (WEO) (more below). Notably forecasts made by IMF go through a complex process between country teams and aggregated adjustments. We focused on a tool that assessed the country-level and aggregate predictions. The product was the design of Michelle C Mandolia, Benjamin P Cohn, and Shashaank Vattikuti.
 
 Our guideline:
 
